@@ -1,4 +1,3 @@
 #!/bin/sh
 cd /opt
-ln -sf /config/* /opt
-exec java -jar PowerTunnel.jar -console --start
+exec java -jar PowerTunnel.jar --ip 0.0.0.0
